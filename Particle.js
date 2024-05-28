@@ -8,7 +8,7 @@ class Particle {
         this.fades = fades;
     }
 }
-draw() {
+draw(); {
     c.save();
     c.globalAlpha = this.opacity;
     c.beginPath();
